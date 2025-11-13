@@ -6,7 +6,7 @@
  </picture>
 </h1>
 
-Tangerine UI is a vibrant, fully-featured custom theme for Mastodon's Web UI that comes in four variants: 🍊 Tangerine, 🪻 Purple, 🍒 Cherry, and 🐠 Lagoon.
+Tangerine UI is a vibrant custom theme for Mastodon's Web UI, available in four variants: 🍊 Tangerine, 🪻 Purple, 🍒 Cherry, and 🐠 Lagoon.
 
 [🕹️ **Live demo** @ nileane.fr](https://nileane.fr) • [👋 **Follow Tangerine UI** on Mastodon](https://nileane.fr/@TangerineUI) • [📝 **Release notes**](https://github.com/nileane/TangerineUI-for-Mastodon/releases)
 
@@ -163,7 +163,7 @@ This is a list of known Mastodon instances on which Tangerine UI has been instal
 
 There are two ways to install Tangerine UI on your Mastodon instance:
 
-- an **optional** theme \[Recommended\]
+- as an **optional** theme \[Recommended\]
 - as the **only** theme
 
 ### 4.a Install Tangerine UI as an optional theme on your instance [Recommended]:
@@ -322,7 +322,7 @@ Your users should now be able to select Tangerine UI as a theme in their setting
 </details>
 
 ### 4.b Install Tangerine UI as the only theme on your instance:
-1. **Check your Mastodon version**. For Tangerine UI to work properly, you need to make sure Tangerine UI is compatible with your Mastodon instance. Please refer to the [Compatibility](#compatibility) section in this document before you proceed.
+1. **Check your Mastodon version**. For Tangerine UI to work properly, you need to make sure Tangerine UI is compatible with your Mastodon instance. Please refer to the [Compatibility](#3-compatibility) section in this document before you proceed.
 
 2. Copy & paste the contents of 🍊 [`TangerineUI.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI.css) to the '***Custom CSS***' field in the administration panel on your Mastodon instance (Navigate to https://*domain*/admin/settings/appearance).
    * 🪻 For the Purple variant, copy the contents of [`TangerineUI-purple.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI-purple.css) instead.
@@ -330,7 +330,7 @@ Your users should now be able to select Tangerine UI as a theme in their setting
    * 🐠 For the Lagoon variant, copy the contents of [`TangerineUI-lagoon.css`](https://github.com/nileane/TangerineUI-for-Mastodon/blob/main/TangerineUI-lagoon.css) instead.
 
 > [!WARNING]
-> **Using the '*Custom CSS*' field to apply Tangerine UI will prevent all users on your instance from being able to choose another theme in their Appearance settings** ([see *Accessibility*](#accessibility)).  
+> **Using the '*Custom CSS*' field to apply Tangerine UI will prevent all users on your instance from being able to choose another theme in their Appearance settings** ([see *Accessibility*](#6-accessibility)).  
 > Please make sure there is a consensus among your users for doing so. If not, scroll back to the previous section ([4.a](#4a-install-tangerine-ui-as-an-optional-theme-on-your-instance-recommended)) on how to install Tangerine UI as an optional theme for your users.
 
 
