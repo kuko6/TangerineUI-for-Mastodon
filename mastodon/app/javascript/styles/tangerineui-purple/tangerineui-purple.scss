@@ -7493,10 +7493,12 @@ a:is(.active,
 .app-body .reactions-bar__item__count .animated-number {
     color: var(--color-accent);
 }
-.app-body .reactions-bar__item:is(:active, :hover, :focus) .reactions-bar__item__count .animated-number {
+.app-body .reactions-bar__item:is(:active, :hover, :focus) .reactions-bar__item__count,
+.reactions-bar__item__count .animated-number {
     color: var(--color-content-fg);
 }
-.app-body .reactions-bar__item.active .reactions-bar__item__count .animated-number {
+.app-body .reactions-bar__item.active .reactions-bar__item__count,
+.reactions-bar__item__count .animated-number {
     color: var(--color-accent-fg);
 }
 .app-body .reactions-bar .emoji-button,
